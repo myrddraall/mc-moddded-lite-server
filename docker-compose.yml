@@ -7,13 +7,25 @@ services:
     stdin_open: true
     ports:
       - "25565:25565"
+    user: minecraft
     environment:
       EULA: "TRUE"
-      TYPE: MODRINTH
-      MODPACK: https://github.com/myrddraall/mc-moddded-lite-server/raw/main/ErdTestModPack%201.0.0.mrpack
-    volumes:
-      # attach the relative directory 'data' to the container's /data path
-      - data:/data
+      TYPE: FORGE
+      VERSION: 1.20.1
+      FORGE_VERSION: 47.1.0
+      SEED: "-2082072440"
+      MODE: survival
+      SERVER_NAME: CP Lite
+      MOTD: CP Lightly Modded Server
+      MODPACK: https://nc.conceptual.ca/index.php/s/B8yTXinQLBMW6ae/download/ErdTestModPack.zip
+      ENABLE_ROLLING_LOGS: true
+      TZ: America/Toronto
+      INIT_MEMORY: 2G
+      MAX_MEMORY: 6G
+      REMOVE_OLD_MODS: true
+      SNOOPER_ENABLED: false
+      ALLOW_FLIGHT: true
+      SPAWN_PROTECTION: 0
 
-volumes:
-  data:
+    volumes:
+      - ./data:/data
