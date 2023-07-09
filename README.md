@@ -2,19 +2,19 @@
 
 
 ## Prerequisites 
-    - Docker
-    - Docker Compose
+  - Docker
+  - Docker Compose
 
 ## Installation
 
-```bash
+```sh
     wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/docker-compose.yml
 ```
 
 
 ## Startup
 
-```bash
+```sh
     docker compose up -d
 ```
 
