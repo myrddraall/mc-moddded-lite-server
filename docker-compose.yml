@@ -9,8 +9,8 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      TYPE: FORGE
-      MODPACK: ./ErdTestModPack 1.0.0.mrpack
+      TYPE: MODRINTH
+      MODPACK: https://github.com/myrddraall/mc-moddded-lite-server/raw/main/ErdTestModPack%201.0.0.mrpack
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - data:/data
