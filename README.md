@@ -8,7 +8,7 @@
 ## Installation
 
 ```sh
-    wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/docker-compose.yml
+    wget -O docker-compose.yml https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/docker-compose.yml
 ```
 
 
