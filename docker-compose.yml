@@ -13,7 +13,7 @@ services:
       TYPE: FORGE
       VERSION: 1.20.1
       FORGE_VERSION: 47.1.0
-      MODPACK: https://nc.conceptual.ca/index.php/s/B8yTXinQLBMW6ae/download/ErdTestModPack.zip
+      MODPACK: https://nc.conceptual.ca/index.php/s/B8yTXinQLBMW6ae/download/CPModdedLite.zip
       REMOVE_OLD_MODS: true
 
       SERVER_NAME: CP Lite
@@ -24,7 +24,7 @@ services:
       SPAWN_PROTECTION: 0
       
       TZ: America/Toronto
-      INIT_MEMORY: 2G
+      INIT_MEMORY: 3G
       MAX_MEMORY: 6G
       ENABLE_ROLLING_LOGS: true
       SNOOPER_ENABLED: false
