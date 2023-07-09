@@ -1,31 +1,34 @@
 version: "3.8"
 
 services:
-  mc:
+  mc_modded_lite:
     image: itzg/minecraft-server
     tty: true
     stdin_open: true
+    stop_grace_period: 240s
     ports:
       - "25565:25565"
-    user: minecraft
     environment:
       EULA: "TRUE"
       TYPE: FORGE
       VERSION: 1.20.1
       FORGE_VERSION: 47.1.0
-      SEED: "-2082072440"
-      MODE: survival
+      MODPACK: https://nc.conceptual.ca/index.php/s/B8yTXinQLBMW6ae/download/ErdTestModPack.zip
+      REMOVE_OLD_MODS: true
+
       SERVER_NAME: CP Lite
       MOTD: CP Lightly Modded Server
-      MODPACK: https://nc.conceptual.ca/index.php/s/B8yTXinQLBMW6ae/download/ErdTestModPack.zip
-      ENABLE_ROLLING_LOGS: true
+      MODE: survival
+      SEED: "-2082072440"
+      ALLOW_FLIGHT: true
+      SPAWN_PROTECTION: 0
+      
       TZ: America/Toronto
       INIT_MEMORY: 2G
       MAX_MEMORY: 6G
-      REMOVE_OLD_MODS: true
+      ENABLE_ROLLING_LOGS: true
       SNOOPER_ENABLED: false
-      ALLOW_FLIGHT: true
-      SPAWN_PROTECTION: 0
+      STOP_SERVER_ANNOUNCE_DELAY: 60
 
     volumes:
       - ./data:/data
