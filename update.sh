@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-./shop.sh
+./stop.sh
 
 rm -Rf ./data/mods/
 rm -Rf ./downloads/
