@@ -21,9 +21,6 @@ chmod +x stop.sh
 wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/logs.sh -O logs.sh
 chmod +x stop.sh
 
-wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/update.sh -O update.sh
-chmod +x update.sh
-
 wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/downloads/eatanomelette-1.1.4-1.20.jar -O downloads/eatanomelette-1.1.4-1.20.jar
 wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/downloads/HammersAndExcavators-1.1.jar -O downloads/HammersAndExcavators-1.1.jar
 wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/downloads/iron_ender_chests-1.20-1.0.2.jar -O downloads/iron_ender_chests-1.20-1.0.2.jar
