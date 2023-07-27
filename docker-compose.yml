@@ -10,15 +10,16 @@ services:
     ports:
       - "25565:25565"
     environment:
+      CF_API_KEY: ${CF_API_KEY}
+      TYPE: AUTO_CURSEFORGE
+      CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/cpmoddedlite/files/4651570
+      CF_PARALLEL_DOWNLOADS: 8
+      
+      CF_EXCLUDE_MODS: chat-heads,inventory-profiles-next
+ 
       EULA: "TRUE"
-      TYPE: FORGE
-      VERSION: 1.20.1
-      FORGE_VERSION: 47.1.0
-      MODPACK: https://nc.conceptual.ca/index.php/s/R3Cd23oJjoHZsaX/download/CPModdedLite-1.0.2.zip
-      REMOVE_OLD_MODS: true
-
       SERVER_NAME: CP Lite
-      MOTD: CP Lightly Modded Server
+      MOTD: CP Learn To Tech
       MODE: survival
       SEED: "-2082072440"
       ALLOW_FLIGHT: true
@@ -33,3 +34,4 @@ services:
 
     volumes:
       - ./data:/data
+      - ./downloads:/downloads
