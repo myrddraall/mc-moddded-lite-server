@@ -4,6 +4,7 @@
 ./stop.sh
 
 rm -Rf ./data/mods/
+rm -Rf ./downloads/
 
 mkdir -p ./data/mods/
 mkdir -p ./downloads/
