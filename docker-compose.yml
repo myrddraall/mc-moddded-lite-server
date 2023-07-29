@@ -15,7 +15,7 @@ services:
       CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/cpmoddedlite/files/4670687
       CF_PARALLEL_DOWNLOADS: 8
       
-      CF_EXCLUDE_MODS: chat-heads,inventory-profiles-next
+      CF_EXCLUDE_MODS: chat-heads,libipn,betterf3,fusion-connected-textures
  
       EULA: "TRUE"
       SERVER_NAME: CP Lite
