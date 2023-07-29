@@ -22,6 +22,9 @@ wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/lo
 chmod +x stop.sh
 
 # Download mods that can't be auo loaded with curseforge due to licencing 
-# wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/downloads/HammersAndExcavators-1.1.jar -O downloads/HammersAndExcavators-1.1.jar
+
+wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/downloads/HammersAndExcavators-1.1.jar -O downloads/HammersAndExcavators-1.1.jar
+wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/downloads/iron_ender_chests-1.20-1.0.2.jar -O downloads/iron_ender_chests-1.20-1.0.2.jar
+wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/downloads/trimeffects-1.0.1-forge.jar -O downloads/trimeffects-1.0.1-forge.jar
 
 ./start.sh
