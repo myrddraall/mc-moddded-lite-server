@@ -1,0 +1,6 @@
+version: "3.8"
+
+services:
+  mc_modded_lite:
+    environment:
+      CF_MODPACK_ZIP: test-pack.zip
