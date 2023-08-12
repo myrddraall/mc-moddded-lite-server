@@ -1,5 +1,6 @@
 #!/bin/bash
 
+docker pull itzg/minecraft-server
 
 ./stop.sh
 
