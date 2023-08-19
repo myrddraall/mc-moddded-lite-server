@@ -8,13 +8,13 @@ services:
     stdin_open: true
     stop_grace_period: 240s
     env_file:
-      - .env
+      - ./.env
     ports:
       - "25565:25565"
     environment:
-      CF_API_KEY: ${CF_API_KEY}
+     # CF_API_KEY: ${CF_API_KEY}
       TYPE: AUTO_CURSEFORGE
-      CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/cpmoddedlite/files/4701111
+      CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/cpmoddedlite/files/4712184
       CF_PARALLEL_DOWNLOADS: 8
       
       CF_EXCLUDE_MODS: chat-heads,libipn,betterf3,fusion-connected-textures
