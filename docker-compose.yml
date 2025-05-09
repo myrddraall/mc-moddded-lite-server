@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   mc_modded_lite:
     image: itzg/minecraft-server
@@ -14,7 +12,7 @@ services:
     environment:
      # CF_API_KEY: ${CF_API_KEY}
       TYPE: AUTO_CURSEFORGE
-      CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/cpmoddedlite/files/4712184
+      CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/cpmoddedlite/files/6510856
       CF_PARALLEL_DOWNLOADS: 8
       
       CF_EXCLUDE_MODS: chat-heads,libipn,betterf3,fusion-connected-textures
@@ -23,13 +21,18 @@ services:
       SERVER_NAME: CP Lite
       MOTD: CP Learn To Tech
       MODE: survival
-      SEED: "-2082072440"
+      SEED: "64417783"
       ALLOW_FLIGHT: true
-      SPAWN_PROTECTION: 0
+      SPAWN_PROTECTION: 8
+      LEVEL: world-2025
+      ONLINE_MODE: true
+      WHITE_LIST: true
+      ENFORCE_WHITELIST: true
+      PLAYER_IDLE_TIMEOUT: 30
       
       TZ: America/Toronto
       INIT_MEMORY: 3G
-      MAX_MEMORY: 6G
+      MAX_MEMORY: 10G
       ENABLE_ROLLING_LOGS: true
       SNOOPER_ENABLED: false
       STOP_SERVER_ANNOUNCE_DELAY: 60
