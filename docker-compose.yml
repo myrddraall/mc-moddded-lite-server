@@ -26,9 +26,14 @@ services:
       SPAWN_PROTECTION: 8
       LEVEL: world-2025
       ONLINE_MODE: true
-      WHITE_LIST: true
       ENFORCE_WHITELIST: true
       PLAYER_IDLE_TIMEOUT: 30
+      DIFFICULTY: normal
+      WHITELIST: |
+        Myrddraa1
+      OPS: |
+        Myrddraa1
+
       
       TZ: America/Toronto
       INIT_MEMORY: 3G
@@ -36,6 +41,7 @@ services:
       ENABLE_ROLLING_LOGS: true
       SNOOPER_ENABLED: false
       STOP_SERVER_ANNOUNCE_DELAY: 60
+       
 
     volumes:
       - ./data:/data
