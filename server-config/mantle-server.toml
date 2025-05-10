@@ -1,0 +1,3 @@
+#Preferences for outputs from tags used in automatic compat in recipes
+tagPreferences = ["kubejs","crafttweaker","bigreactors","create","tconstruct","thermal","projectred_exploration","projectred_core","enderio"]
+
