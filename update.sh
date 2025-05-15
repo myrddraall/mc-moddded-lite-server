@@ -1,5 +1,8 @@
 #!/bin/bash
 
+wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/update.sh -O update-server.sh
+chmod +x server.sh
+
 wget https://raw.githubusercontent.com/myrddraall/mc-moddded-lite-server/main/update-server.sh -O update-server.sh
 chmod +x update-server.sh
 
