@@ -12,8 +12,8 @@ services:
     environment:
      # CF_API_KEY: ${CF_API_KEY}
       TYPE: AUTO_CURSEFORGE
-      CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/cpmoddedlite/files/6516621
-      CF_PARALLEL_DOWNLOADS: 8
+      CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/cpmoddedlite/files/6532311
+      CF_PARALLEL_DOWNLOADS: 16
       
       CF_EXCLUDE_MODS: chat-heads,libipn,betterf3,fusion-connected-textures
  
