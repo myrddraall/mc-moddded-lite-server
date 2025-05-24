@@ -11,7 +11,7 @@ services:
       - "25565:25565"
     environment:
       TYPE: AUTO_CURSEFORGE
-      CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/cpmoddedlite/files/6561281
+      CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/cpmoddedlite/files/6561354
       CF_PARALLEL_DOWNLOADS: 16
       
       CF_EXCLUDE_MODS: chat-heads,libipn,betterf3,fusion-connected-textures
